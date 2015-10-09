@@ -2,6 +2,10 @@
   display: none;
 }
 
+#grumpy-showing {
+  display: none;
+}
+
 h3 {
   font-family: fantasy;
   color: blue
@@ -9,9 +13,6 @@ h3 {
 h4 {
   font-family: fantasy;
   color: red
-}
-#grumpy-showing {
-  display: none;
 }
 
 .clickable {
