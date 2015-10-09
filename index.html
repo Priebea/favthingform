@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="CSS/bootstrap.css" rel="stylesheet" type="text.css">
-  <link href="CSS/styles.css" rel="stylesheet" type="text.css">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script> src="js/query-1.11.3.js"></script>
   <script> src="js/scripts.js"></script>
   <title>A list of YOUR favorite things!</title>
@@ -23,32 +23,33 @@
          <input id="favorite2" class="form-control" type="text" placeholder="Your second most favorite thing">
       </div>
         <div class="form-group">
-        <label for="favorite2">Three to go</label>
-        <input id="favorite2" class="form-control" type="text" placeholder="Your third most favorite thing">
+        <label for="favorite3">Three to go</label>
+        <input id="favorite3" class="form-control" type="text" placeholder="Your third most favorite thing">
       </div>
         <div class="form-group">
-        <label for="favorite2">Dig deep</label>
-        <input id="favorite2" class="form-control" type="text" placeholder="Your fourth most favorite thing">
+        <label for="favorite4">Dig deep</label>
+        <input id="favorite4" class="form-control" type="text" placeholder="Your fourth most favorite thing">
       </div>
         <div class="form-group">
-        <label for="favorite2">Last one!</label>
-        <input id="favorite2" class="form-control" type="text" placeholder="Your fifth, and last, favorite thing">
+        <label for="favorite5">Last one!</label>
+        <input id="favorite5" class="form-control" type="text" placeholder="Your fifth, and last, favorite thing">
       </div>
 
       <button type="submit" class="btn-btn-primary">Show my my list of favorite things</button>
       </form>
     </div>
 
-
-  <div id="list">
-         <h4>You made a great list!  Here it is:</h4>
-         <p><span class="favorite1"></span></p>
-         <p><span class="favorite2"></span></p>
-         <p><span class="favorite3"></span></p>
-         <p><span class="favorite4"></span></p>
-         <p><span class="favorite5"></span></p>
+      <h4>You made a great list!  Here it is:</h4>
+    <div id="list">
+      <ul>
+        <li><span class="favorite1"></span></li>
+        <li><span class="favorite2"></span></li>
+        <li><span class="favorite3"></span></li>
+        <li><span class="favorite4"></span></li>
+        <li><span class="favorite5"></span></li>
+      </ul>
    </div>
-
+  </div>
 
 
    <div id="grumpy-hidden">
@@ -58,6 +59,6 @@
      <p>Big surprise... <span class="clickable">Click here</span> to send him back to again.</p>
      <img src="img/grumpy.jpeg">
     </div>
-  </div>
+
 </body>
 </html>

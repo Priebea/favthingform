@@ -17,10 +17,3 @@ $(document).ready(function() {
     event.preventDefault();
   });
 });
-
-$(document).ready(function() {
-  $(".clickable").click(function() {
-    $("#grumpy-showing").toggle();
-    $("#grumpy-hidden").toggle();
-  });
-});
