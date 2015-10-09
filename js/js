@@ -1,0 +1,6 @@
+$$(document).ready(function() {
+  $(".clickable").click(function() {
+    $("#grumpy-showing").toggle();
+    $("#grumpy-hidden").toggle();
+  });
+});

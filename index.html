@@ -11,14 +11,38 @@
 <body>
   <div class="container">
     <img src="img/juliea.jpeg" alt="A picture of Julie Andrews">
-    <h3>In the spaces provided below, please list your ten favorite things:</h3>
+    <h3>In the spaces provided below, please list your five favorite things:</h3>
     <div id="blanks">
       <form>
         <div class="form-group">
-          <label for="favorite1">item</label>
-          <input id="favorite1" class="form-control" type="text">
+          <label for="favorite1">Pick a good one</label>
+          <input id="favorite1" class="form-control" type="text" placeholder="Your most favorite thing">
         </div>
+         <label for="favorite2">Think hard</label>
+         <input id="favorite2" class="form-control" type="text" placeholder="Your second most favorite thing">
+      </div>
+        <label for="favorite2">Three to go</label>
+        <input id="favorite2" class="form-control" type="text" placeholder="Your third most favorite thing">
+      </div>
+        <label for="favorite2">Dig deep</label>
+        <input id="favorite2" class="form-control" type="text" placeholder="Your fourth most favorite thing">
+      </div>
+        <label for="favorite2">Last one!</label>
+        <input id="favorite2" class="form-control" type="text" placeholder="Your fifth, and last, favorite thing">
+</div>
       </form>
+      <h4>Want to know Grumpy Cat's favorite things?<h4>
+      <button type="button" class="btn btnprimary" id="click">Click Here</button>
+        <img src="img/grumpy.jpeg" alt="A picture Grumpy Cat">
+
+
+   <div id="grumpy-hidden">
+     <p>What are Grumpy Cat's favorite things?. <span class="clickable">Click here</span> to see his list.</p>
+   </div>
+
+   <div id="grumpy-showing">
+     <p>Big surprise... <span class="clickable">Click here</span> to send him back to again.</p>
+     <img src="img/grumpy.jpeg">
     </div>
 
 
